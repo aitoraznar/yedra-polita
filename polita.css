@@ -1,0 +1,24 @@
+*:not(.nombremenu):not(.elementoAccion),
+.login a, .login a:visited {
+    font-size: 1em !important;
+}
+
+/* Login */
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > table {
+    width: 500px !important;
+}
+
+/* Mensajes */
+.tablaFondo {
+    width: 80%;
+}
+
+.columnaFondo table {
+    width: 100%;
+}
+
+.columnaFondo textarea {
+    width: 100%;
+    min-height: 200px;
+}
+

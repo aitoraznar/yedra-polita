@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Yedra Polita",
+  "description": "Improves Yedra's user experience",
+  "version": "0.1.0",
+  "author": "Aitor Aznar Álvarez",
+  "homepage_url": "https://github.com/aitoraznar/yedra-polita",
+  "icons": {
+    "16": "icon_16px.png",
+    "32": "icon_32px.png",
+    "48": "icon_48px.png",
+    "64": "icon_64px.png"
+  },
+  "permissions": [
+    "activeTab",
+    "https://yedra.educantabria.es/*",
+    "storage"
+  ],
+  "content_scripts": [{
+    "css": ["polita.css"],
+    "js": ["main.js"],
+    "matches": ["https://yedra.educantabria.es/*"],
+    "all_frames": true
+  }]
+}
