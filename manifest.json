@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Yedra Polita",
   "description": "Improves Yedra's user experience",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Aitor Aznar Álvarez",
   "homepage_url": "https://github.com/aitoraznar/yedra-polita",
   "icons": {
